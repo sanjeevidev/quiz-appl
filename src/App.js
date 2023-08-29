@@ -1,6 +1,6 @@
 import React from 'react';
-import WelcomePage from './components/welcomepg';
 import './App.css';
+import WelcomePage from './components/welcomepg';
 import DetailsPage from './components/detailspg';
 import ExperienceQuiz from './components/categorypg';
 import FresherPage from './components/test/fresherpg';
