@@ -4,11 +4,12 @@ import './App.css';
 import DetailsPage from './components/detailspg';
 import ExperienceQuiz from './components/categorypg';
 import FresherPage from './components/test/fresherpg';
+import FresherQuiz from './components/quiz/fresherquiz';
 
 function App() {
   return (
     <div className="App">
-    <FresherPage/>
+    <WelcomePage/>
     </div>
   );
 }
