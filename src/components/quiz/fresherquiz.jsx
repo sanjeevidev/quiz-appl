@@ -6,7 +6,7 @@ function FresherQuiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedOptions, setSelectedOptions] = useState(Array(questions.length).fill(null));
   const [score, setScore] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(300); // 5 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(10); // 5 minutes in seconds
 
   useEffect(() => {
     const timer = setInterval(() => {
