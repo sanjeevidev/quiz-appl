@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
+import WelcomePage from './components/welcomepg';
 import './App.css';
+import DetailsPage from './components/detailspg';
+import ExperienceQuiz from './components/categorypg';
+import FresherPage from './components/test/fresherpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <FresherPage/>
     </div>
   );
 }
